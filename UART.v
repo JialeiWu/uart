@@ -91,7 +91,9 @@ always@(posedge iCLK or negedge iRST_N)begin
 		endcase
 	end
 end
+	
 
+//kaishi
 wire wSampleEN=(rRBaudCnt==BAUD_1) | (rRBaudCnt==BAUD_2) | (rRBaudCnt==BAUD_3);
 //rSample_1 will add if the sampling point is in high level
 //rSample_1
